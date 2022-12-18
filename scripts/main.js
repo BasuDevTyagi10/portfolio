@@ -84,11 +84,11 @@ async function getInputValue() {
       break;
     case "resume":
       trueValue(value);
-      createText("Download my Resume: <a href='https://github.com/BasuDevTyagi10/BasuDevTyagi10/raw/main/resume/Basudev%20Tyagi.pdf' target='_blank'><span class='blue'>here<span/></a>");
+      createText("View my Resume: <a href='../resources/Basudev Tyagi.pdf' target='_blank'><span class='blue'>here<span/></a>");
       break;
     case "projects":
       trueValue(value);
-      createText("Visit my GitHub to view projects I have done.");
+      createText("Visit my GitHub to view projects I have done. Might as well give a follow while you are there 😬");
       createText("<a href='https://github.com/BasudevTyagi10' target='_blank'><i class='fab fa-github white'></i> github.com/BasudevTyagi10</a>");
       break;
     case "contact":

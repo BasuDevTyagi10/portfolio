@@ -84,10 +84,14 @@ async function getInputValue() {
       break;
     case "resume":
       trueValue(value);
-      createText("View my Resume: <a href='../resources/Basudev Tyagi.pdf' target='_blank'><span class='blue'>here<span/></a>");
+      createText("<hr>")
+      generateResume();
+      createText("<hr>")
+      createText("Download PDF <a href='https://github.com/BasuDevTyagi10/portfolio/raw/main/resources/Basudev%20Tyagi.pdf' target='_blank'><span class='blue'>here<span/></a>");
       break;
     case "projects":
       trueValue(value);
+      generateProjects();
       createText("Visit my GitHub to view projects I have done. Might as well give a follow while you are there 😬");
       createText("<a href='https://github.com/BasudevTyagi10' target='_blank'><i class='fab fa-github white'></i> github.com/BasudevTyagi10</a>");
       break;
@@ -147,6 +151,156 @@ function createCode(code, text) {
   p.innerHTML =
     `${code} <br/><span class='text'> ${text} </span>`;
   app.appendChild(p);
+}
+
+function generateResume() {
+  // Header
+  createText("<br><font size='5'>BASUDEV TYAGI</font>")
+  createText("<a href='mailto:basudevtyagi10@gmail.com?subject=Contact via Portfolio Site' target='_blank'><i class='fa fa-envelope white'></i> basudevtyagi10@gmail.com</a> | <a href='tel:+917251976234'><i class='fa fa-phone-square white'></i> +91 7251976234</a> | <i class='fa fa-map-marker'></i> Dehradun, Uttarakhand");
+  createText("<a href='https://github.com/BasudevTyagi10' target='_blank'><i class='fab fa-github white'></i> Github</a> | <a href='https://linkedin.com/in/basudevtyagi/' target='_blank'><i class='fab fa-linkedin-in white'></i> LinkedIn</a> | <a href='https://basudevtyagi10.github.io/portfolio/' target='_blank'><i class='fa fa-user white'></i> Portfolio</a>");
+
+  // Education
+  createText("<big><u>EDUCATION</u><big>");
+  createText(`
+  <table>
+    <tr>
+      <th style='text-align: left;'>Graphic Era Deemed to be University</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Dehradun, Uttarakhand</td>
+    </tr>
+    <tr>
+      <td>B.Tech. CSE</td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>2019 - Present</td>
+    </tr>
+    <tr>
+      <td>CGPA: 8.86</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th style='text-align: left;'>Raja Rammohan Roy Academy</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Dehradun, Uttarakhand</td>
+    </tr>
+    <tr>
+      <td>XII (ISC)</td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td>Percentage: 85%</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th style='text-align: left;'>Raja Rammohan Roy Academy</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Dehradun, Uttarakhand</td>
+    </tr>
+    <tr>
+      <td>X (ICSE)</td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>2017</td>
+    </tr>
+    <tr>
+      <td>Percentage: 94.4%</td>
+    </tr>
+  </table>
+  `)
+
+  // Experience
+  createText("<big><u>EXPERIENCE</u><big>");
+  createText(`
+  <p><strong>KODERS KORPORATION</strong> | Developer Intern-II <br> Dehradun, India | July 2022 - Sept 2022</p>
+  <p><strong>KODERS KORPORATION</strong> | Python Developer Intern <br> Dehradun, India | Jan 2022 - June 2022</p>
+  `);
+
+  // Skills
+  createText("<big><u>SKILLS</u><big>");
+  createText(`
+  <table>
+    <tr>
+      <th style='text-align: left;'>Programming Languages</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Python (Proficient), Java (Proficient), C & C++ (Basic),<br>JavaScript (Basic), SQL (Proficient), HTML & CSS</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th style='text-align: left;'>Libraries / Frameworks</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Flask, Django, Bootstrap, Node.js, Express.js</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th style='text-align: left;'>Tools / Platforms</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Git, GitHub, Visual Studio Code, Eclipse, Jupyter,<br>PyCharm, Adobe XD & Figma (UI/UX Designing)</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th style='text-align: left;'>Databases</th>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>MySQL, SQLite, PostgreSQL, GraphQL, MongoDB</td>
+    </tr>
+  </table>
+  `);
+
+  // Projects
+  createText("<big><u>PROJECTS</u><big>");
+  generateProjects();
+
+  // Certificates
+  createText("<big><u>CERTIFICATIONS</u><big>");
+  createText(`
+  <ul>
+  <li><a href="https://www.coursera.org/account/accomplishments/verify/GWKHF35B37U4" target="_blank">Introduction to Relational Databases (RDBMS) - Coursera, IBM</a></li>
+  <li><a href="https://www.coursera.org/account/accomplishments/verify/B6QC7MDC3FX7" target="_blank">Relational Database Administration (DBA) - Coursera, IBM</a></li>
+  <li><a href="https://www.coursera.org/account/accomplishments/verify/6TXLXEQ6NKJR" target="_blank">Databases and SQL for Data Science with Python - Coursera, IBM</a></li>
+  <li><a href="https://www.coursera.org/account/accomplishments/verify/372RFY3QF98X" target="_blank">Foundation of User Experience (UX) Design by Google - Coursera, Google</a></li>
+  <li><a href="https://www.coursera.org/account/accomplishments/verify/3W5Q4KUSP5ZB" target="_blank">Hands-on Introduction to Linux Commands and Shell Scripting - Coursera, IBM</a></li>
+  <li><a href="https://www.hackerrank.com/certificates/64f91727b936" target="_blank">Python (Basic) - HackerRank</a></li>
+  <li><a href="https://www.hackerrank.com/certificates/f2f720ce89b6" target="_blank">Java (Basic) - HackerRank</a></li>
+  <li><a href="https://www.hackerrank.com/certificates/5fc4c2bee098" target="_blank">SQL (Basic) - HackerRank</a></li>
+  </ul>
+  `);
+
+  // Awards
+  createText("<big><u>HONORS & AWARDS</u><big>");
+  createText(`
+  <ul>
+  <li>AWS Machine Learning Scholar 2021</li>
+  <li>Contributor in GWOC'21</li>
+  <li>Successfully merged 4 PRs for Hacktoberfest 2021</li>
+  <li>Completed FutureSkills Prime Adobe UX Foundation Journey 2021</li>
+  </ul>
+  `);
+}
+
+function generateProjects() {
+  createText(`
+  <p><strong>ANALYSIS OF INDIAN ELECTIONS USING TWITTER</strong> | <a href='https://github.com/BasuDevTyagi10/Analysis-Indian-Elections-Twitter' target='_blank'>Link</a> | Python, Twitter API</p>
+  <p>A simple Data Science project, showing the volume and sentiment analysis based on the tweets of<br>
+  the users of Twitter. The tweets are obtained from this dataset which are scraped from the Twitter<br>
+  API and then the insights are represented through graphs using plotly, a python library.</p>
+  <p><strong>OFFENSIVE CONTENT DETECTION FLASK WEB-APP</strong> | <a href='https://github.com/BasuDevTyagi10/offensive-tweet-detection' target='_blank'>Link</a> | Python, Twitter API, Machine Learning, Flask Web Framework</p>
+  <p>Python built Web Application (using Flask Web Framework) that allows a user to give multiple<br>
+  text inputs or fetch tweets from Twitter API and run a trained Machine Learning Model (using<br>
+  Logistic Regression Algorithm) to classify them as Offensive or Non-Offensive with an accuracy<br>
+  between 94-96%.</p>
+  <p><strong>STUDENT REPORTCARD GENERATOR</strong> | <a href='https://github.com/BasuDevTyagi10/SchoolReportCardGenerator' target='_blank'>Link</a> | Python, Tkinter, SQLite</p>
+  <p>Python built GUI Application (using tkinter module) that allows a user to add, edit, search, delete<br>
+  and generate a Report Card for a student in pdf format and doc formats. The data is stored in a local<br>
+  database file using SQLite.</p>
+  `);
 }
 
 open_terminal();

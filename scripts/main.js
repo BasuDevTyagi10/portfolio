@@ -87,7 +87,7 @@ async function getInputValue() {
       createText("<hr>")
       generateResume();
       createText("<hr>")
-      createText("Download PDF <a href='https://github.com/BasuDevTyagi10/portfolio/raw/main/resources/Basudev%20Tyagi.pdf' target='_blank'><span class='blue'>here<span/></a>");
+      createText("Download PDF <a href='../resources/Basudev Tyagi.pdf' target='_blank'><span class='blue'>here<span/></a>");
       break;
     case "projects":
       trueValue(value);

@@ -157,7 +157,7 @@ function generateResume() {
   // Header
   createText("<br><font size='5'>BASUDEV TYAGI</font>")
   createText("<a href='mailto:basudevtyagi10@gmail.com?subject=Contact via Portfolio Site' target='_blank'><i class='fa fa-envelope white'></i> basudevtyagi10@gmail.com</a> | <a href='tel:+917251976234'><i class='fa fa-phone-square white'></i> +91 7251976234</a> | <i class='fa fa-map-marker'></i> Dehradun, Uttarakhand");
-  createText("<a href='https://github.com/BasudevTyagi10' target='_blank'><i class='fab fa-github white'></i> Github</a> | <a href='https://linkedin.com/in/basudevtyagi/' target='_blank'><i class='fab fa-linkedin-in white'></i> LinkedIn</a> | <a href='https://basudevtyagi10.github.io/portfolio/' target='_blank'><i class='fa fa-user white'></i> Portfolio</a>");
+  createText("<a href='https://github.com/BasudevTyagi10' target='_blank'><i class='fab fa-github white'></i> Github</a> | <a href='https://linkedin.com/in/basudevtyagi/' target='_blank'><i class='fab fa-linkedin-in white'></i> LinkedIn</a> | <a href='https://basudevtyagi.vercel.app/' target='_blank'><i class='fa fa-user white'></i> Portfolio</a>");
 
   // Education
   createText("<big><u>EDUCATION</u><big>");

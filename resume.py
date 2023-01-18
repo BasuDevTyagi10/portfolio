@@ -7,7 +7,7 @@ load_dotenv()
 
 url = "https://hackerresume.com/api/generate/resume"
 
-resume_data = json.load(open('resume-data.json', 'r', encoding='utf-8'))
+resume_data = json.load(open(os.path.abspath(".")+"/resume-data.json", 'r', encoding='utf-8'))
 
 resume_data['selectedTemplate'] = os.getenv('SELECTED_TEMPLATE')
 resume_data['user']['uid'] = os.getenv('HACKERRANK_UID')
@@ -28,5 +28,5 @@ if response.status_code != 200:
     print(response.text)
     exit()
 
-with open("./resources/Basudev Tyagi.pdf", 'wb') as file:
+with open(os.path.abspath(".")+"/resources/Basudev Tyagi.pdf", 'wb') as file:
     file.write(response.content)

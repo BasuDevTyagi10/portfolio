@@ -30,20 +30,24 @@
     },
     "links": [
         {
-            "network": "GitHub",
-            "url": "https://github.com/BasuDevTyagi10"
+            "network": "Portfolio",
+            "url": "https://www.basudevtyagi.vercel.app/"
         },
         {
             "network": "Linkedin",
             "url": "https://www.linkedin.com/in/basudevtyagi/"
         },
         {
+            "network": "GitHub",
+            "url": "https://github.com/BasuDevTyagi10"
+        },
+        {
             "network": "HackerRank",
             "url": "https://www.hackerrank.com/basudevtyagi"
         },
         {
-            "network": "Portfolio",
-            "url": "https://www.basudevtyagi.vercel.app/"
+            "network": "Leetcode",
+            "url": "https://leetcode.com/basudevtyagi/"
         }
     ],
     "education": [
@@ -79,6 +83,17 @@
         }
     ],
     "work": [
+        {
+            "company": "KODERS KORPORATION",
+            "position": "Junior Developer - I",
+            "location": "Dehradun, India",
+            "startDate": "Oct 2022",
+            "endDate": "Jan 2023",
+            "highlights": [
+                "- Worked collaboratively with the development team on an on-going project – **Instaride**, which is **a car pooling application that will be functional in Germany**. As a Backend Developer I was responsible for **creating the API using Flask** to interact with the database for creating, reading and updating user data. I was also responsible for creating the **payment system service’s backend using Stripe**.",
+                "- Prepare reports and attend scrum meetings with the development team and stakeholders for project Instaride."
+            ]
+        },
         {
             "company": "KODERS KORPORATION",
             "position": "Developer Intern - II",
@@ -126,11 +141,9 @@
             ]
         },
         {
-            "name": "Tools / Platforms",
+            "name": "IDEs / Software Packages",
             "keywords": [
-                "Git",
-                " GitHub",
-                " Visual Studio Code",
+                "Visual Studio Code",
                 " Eclipse",
                 " Jupyter",
                 " PyCharm",
@@ -146,7 +159,23 @@
                 " GraphQL",
                 " MongoDB"
             ]
+        },
+        {
+            "name": "Version Control",
+            "keywords": [
+                "Git",
+                " GitHub"
+            ]
+        },
+        {
+            "name": "Cloud Services",
+            "keywords": [
+                "Hasura",
+                " Firebase",
+                " GCP"
+            ]
         }
+
     ],
     "projects": [
         {
@@ -248,8 +277,8 @@
         "links",
         "education",
         "work",
-        "skills",
         "projects",
+        "skills",
         "certificates",
         "awards"
     ]

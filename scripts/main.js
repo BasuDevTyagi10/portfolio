@@ -3,11 +3,12 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
 
 const skillToEmoji = {
   "Programming Languages": "💻",
-  "Libraries/Frameworks": "🌐",
+  "Libraries / Frameworks": "🌐",
   "IDEs / Software Packages": "🔧",
   "Databases": "🛢",
   "Version Control": "⚙️",
-  "Cloud Services": "☁️"
+  "Cloud Services": "☁️",
+  "Build Tools / Package Managers": "🔧"
 }
 
 let resumeData = {};

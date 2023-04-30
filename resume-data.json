@@ -84,11 +84,22 @@
     ],
     "work": [
         {
+            "company": "CAPGEMINI",
+            "position": "Senior Analyst Trainee",
+            "location": "Bangalore, Karnataka",
+            "startDate": "Jan 2023",
+            "endDate": "Apr 2023",
+            "highlights": [
+                "- Worked on the development of a Bank Server Application evolved in different phases starting from a simple database as array application to a Spring Boot Web Service.",
+                "- Learned and made use of technologies like Maven, Spring and AWS to complete the development of the Bank Server Application as per the given requirements."
+            ]
+        },
+        {
             "company": "KODERS KORPORATION",
             "position": "Junior Developer - I",
             "location": "Dehradun, India",
             "startDate": "Oct 2022",
-            "endDate": "Jan 2023",
+            "endDate": "Dec 2023",
             "highlights": [
                 "- Worked collaboratively with the development team on an on-going project – **Instaride**, which is **a car pooling application that will be functional in Germany**. As a Backend Developer I was responsible for **creating the API using Flask** to interact with the database for creating, reading and updating user data. I was also responsible for creating the **payment system service’s backend using Stripe**.",
                 "- Prepare reports and attend scrum meetings with the development team and stakeholders for project Instaride."
@@ -131,20 +142,23 @@
             ]
         },
         {
-            "name": "Libraries/Frameworks",
+            "name": "Libraries / Frameworks",
             "keywords": [
                 "Flask",
                 " Django",
                 " Bootstrap",
                 " Node.js",
-                " Express.js"
+                " Express.js",
+                " Spring",
+                " Spring Boot",
+                " Hibernate"
             ]
         },
         {
             "name": "IDEs / Software Packages",
             "keywords": [
                 "Visual Studio Code",
-                " Eclipse",
+                " Eclipse IDE",
                 " Jupyter",
                 " PyCharm",
                 " Adobe XD & Figma (UI/UX Designing)"
@@ -172,7 +186,16 @@
             "keywords": [
                 "Hasura",
                 " Firebase",
-                " GCP"
+                " GCP",
+                " AWS"
+            ]
+        },
+        {
+            "name": "Build Tools / Package Managers",
+            "keywords": [
+                "Maven",
+                " PIP",
+                " Node"
             ]
         }
 

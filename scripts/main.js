@@ -102,8 +102,8 @@ async function getInputValue() {
       createText(`👨‍💻 About me...`);
       createText(
         `🤔 Exploring new technologies and developing software for fun and quick hacks.<br>
-        🎓 Studying Computer Science Engineering at Graphic Era Deemed to be University.<br>
-        💼 Looking forward to working in the field of <span class='blue'>Backend Development, Data Analytics</span> and <span class='blue'>Software Engineering</span>.<br>
+        💼 Working as a Senior Software Engineer at Capgemini.<br>
+        🎓 Completed Computer Science Engineering from Graphic Era Deemed to be University.<br>
         🌱 Learning more about <span class='blue'>Backend, DBMS, Machine Learning</span> and <span class='blue'>Data Science</span>.<br>
         ✍️ Pursuing UI/UX Designing and Blog Writing as hobbies/side hustles.<br>
         🤝 Looking to collaborate on <span class='blue'>Python, JavaScript</span> and <span class='blue'>UI/UX.</span>`

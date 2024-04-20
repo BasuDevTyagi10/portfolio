@@ -1,0 +1,252 @@
+{
+    "basics": {
+        "name": "Basudev Tyagi",
+        "email": "work.basudevtyagi@gmail.com",
+        "phone": "+917251976234",
+        "location": {
+            "address": "Dehradun, Uttarakhand"
+        }
+    },
+    "links": [
+        {
+            "network": "Portfolio",
+            "url": "https://www.basudevtyagi.vercel.app/"
+        },
+        {
+            "network": "Linkedin",
+            "url": "https://www.linkedin.com/in/basudevtyagi/"
+        },
+        {
+            "network": "GitHub",
+            "url": "https://github.com/BasuDevTyagi10"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Graphic Era Deemed to be University",
+            "location": "Dehradun, Uttarakhand",
+            "studyType": "B.Tech.",
+            "scoreType": "CGPA",
+            "score": "8.86",
+            "startDate": "2019",
+            "endDate": "",
+            "area": "CSE"
+        },
+        {
+            "institution": "Raja Rammohan Roy Academy",
+            "location": "Dehradun, Uttarakhand",
+            "studyType": "XII",
+            "scoreType": "Percentage",
+            "score": "85",
+            "startDate": "",
+            "endDate": "2019",
+            "area": "(ISC)"
+        },
+        {
+            "institution": "Raja Rammohan Roy Academy",
+            "location": "Dehradun, Uttarakhand",
+            "studyType": "X",
+            "scoreType": "Percentage",
+            "score": "94.4",
+            "startDate": "",
+            "endDate": "2017",
+            "area": "(ICSE)"
+        }
+    ],
+    "work": [
+        {
+            "company": "CAPGEMINI",
+            "position": "Senior Software Engineer",
+            "location": "Bangalore, Karnataka",
+            "startDate": "July 2023",
+            "endDate": "Present",
+            "highlights": [
+                "- Working as a certified Guidewire InsuranceSuite Integration Developer to build robust and reliable Insurance applications by ensuring that systems can interact with each other seamlessly.",
+                "- Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs, and enhancements."
+            ]
+        },
+        {
+            "company": "CAPGEMINI",
+            "position": "Senior Analyst Trainee",
+            "location": "Bangalore, Karnataka",
+            "startDate": "Jan 2023",
+            "endDate": "Apr 2023",
+            "highlights": [
+                "- Worked on the development of a Bank Server Application evolved in different phases starting from a simple database as array application to a Spring Boot Web Service.",
+                "- Learned and made use of technologies like Maven, Spring and AWS to complete the development of the Bank Server Application as per the given requirements."
+            ]
+        },
+        {
+            "company": "KODERS KORPORATION",
+            "position": "Junior Developer - I",
+            "location": "Dehradun, India",
+            "startDate": "Oct 2022",
+            "endDate": "Dec 2023",
+            "highlights": [
+                "- Worked collaboratively with the development team on an on-going project – **Instaride**, which is **a car pooling application that will be functional in Germany**. As a Backend Developer I was responsible for **creating the API using Flask** to interact with the database for creating, reading and updating user data. I was also responsible for creating the **payment system service’s backend using Stripe**.",
+                "- Prepare reports and attend scrum meetings with the development team and stakeholders for project Instaride."
+            ]
+        },
+        {
+            "company": "KODERS KORPORATION",
+            "position": "Developer Intern - II",
+            "location": "Dehradun, India",
+            "startDate": "July 2022",
+            "endDate": "Sept 2022",
+            "highlights": [
+                "- Worked collaboratively with the development team on an on-going project – **Instaride**, which is **a car pooling application that will be functional in Germany**. As a Backend Developer I was responsible for **creating the API using Flask** to interact with the database for creating, reading and updating user data. I was also responsible for creating the **payment system service’s backend using Stripe**.",
+                "- Led a team of interns to create a simple **Resume Parser** to extract very basic information (name, phone number, email, skills) about a job applicant at the company using **Regex Matching** and **POS Tagging**. ",
+                "- Developed and delivered an **Auto Updater microservice** for a client, which checks for updates to an application by comparing its SHA256 checksum to the latest version on a server to ensure the integrity and reliability of the updates. I was also responsible for building, testing, and delivering the working code, as well as **setting up a CI/CD pipeline using Docker** on the server to deploy the updater and the application."
+            ]
+        },
+        {
+            "company": "KODERS KORPORATION",
+            "position": "Python Developer Intern",
+            "location": "Dehradun, India",
+            "startDate": "Jan 2022",
+            "endDate": "June 2022",
+            "highlights": [
+                "- Worked collaboratively with clients and development team to provide backend for EponNFT, an Ethereum based NFT Minter Application using **web3.py** and **Flask**.",
+                "- Worked on Spam Invite Joiner, a CLI application that allows a user to **monitor a Discord channel for invite links** and **join the links** using the provided accounts as soon as they are sent in the aforementioned channel using **discord.py**."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "keywords": [
+                "Python (Proficient)",
+                " Java (Proficient)",
+                " C & C++ (Basic)",
+                " JavaScript (Basic)",
+                " SQL (Proficient)",
+                " HTML & CSS",
+                " Gosu (Intermediate)"
+            ]
+        },
+        {
+            "name": "Libraries / Frameworks",
+            "keywords": [
+                "Flask",
+                " Django",
+                " Bootstrap",
+                " Node.js",
+                " Express.js",
+                " Spring",
+                " Spring Boot",
+                " Hibernate",
+                " Guidewire InsuranceSuite"
+            ]
+        },
+        {
+            "name": "IDEs / Software Packages",
+            "keywords": [
+                "Visual Studio Code",
+                " Eclipse IDE",
+                " Jupyter",
+                " PyCharm",
+                " Adobe XD & Figma (UI/UX Designing)"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "MySQL",
+                " SQLite",
+                " PostgreSQL",
+                " GraphQL",
+                " MongoDB"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "keywords": [
+                "Git",
+                " GitHub",
+                " Bitbucket"
+            ]
+        },
+        {
+            "name": "Cloud Services",
+            "keywords": [
+                "Hasura",
+                " Firebase",
+                " GCP",
+                " AWS"
+            ]
+        },
+        {
+            "name": "Build Tools / Package Managers",
+            "keywords": [
+                "Maven",
+                " Gradle",
+                " PIP",
+                " Node"
+            ]
+        }
+
+    ],
+    "projects": [
+        {
+            "name": "TUNIFY HUB",
+            "description": [
+                "A fun web application built on top of Spotify REST API to generate playlists using your liked songs."
+            ],
+            "url": "https://tunifyhub.onrender.com/",
+            "keywords": [
+                "Python",
+                "Django",
+                " Spotify API"
+            ]
+        },
+        {
+            "name": "ANALYSIS OF INDIAN ELECTIONS USING TWITTER",
+            "description": [
+                "A simple **Data Science** project, showing the **volume and sentiment analysis** based on the tweets of the users of Twitter. The tweets are obtained from this dataset which are **scraped from the Twitter API** and then the insights are represented through **graphs using plotly**, a python library."
+            ],
+            "url": "https://github.com/BasuDevTyagi10/Analysis-Indian-Elections-Twitter",
+            "keywords": [
+                "Python",
+                " Twitter API"
+            ]
+        },
+        {
+            "name": "STUDENT REPORT CARD GENERATOR",
+            "description": [
+                "Python built **GUI Application** (**using tkinter module**) that allows a user to add, edit, search, delete and generate a Report Card for a student in pdf format and doc formats. The data is stored in a **local database file using SQLite**."
+            ],
+            "url": "https://github.com/BasuDevTyagi10/SchoolReportCardGenerator",
+            "keywords": [
+                "Python",
+                " Tkinter",
+                " SQLite"
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "description": "Guidewire Certified Associate - InsuranceSuite Developer by Guidewire Software ",
+            "url": "https://education.guidewire.com/lmt/lmtlogin.prHome?site=guidewire##certification-checker",
+            "issuedBy": "Guidewire Software"
+        },
+        {
+            "description": "Guidewire Certified Specialist - InsuranceSuite Integration by Guidewire Software ",
+            "url": "https://education.guidewire.com/lmt/lmtlogin.prHome?site=guidewire##certification-checker",
+            "issuedBy": "Guidewire Software"
+        }
+    ],
+    "awards": [
+        {
+            "summary": "AWS Machine Learning Scholar 2021"
+        },
+        {
+            "summary": "Contributor in GWOC'21"
+        },
+        {
+            "summary": "Successfully merged 4 PRs for Hacktoberfest 2021"
+        },
+        {
+            "summary": "Completed FutureSkills Prime Adobe UX Foundation Journey 2021"
+        }
+    ]
+}
